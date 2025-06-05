@@ -1,0 +1,284 @@
+# Classificazione Pattern di Prompt Engineering per Casi d'Uso
+
+## 1. PROBLEM SOLVING & ANALISI TECNICA
+
+### Pattern Ottimali:
+- **Chain of Thought (CoT)**
+- **Tree of Thoughts** 
+- **Divide and Conquer**
+- **Self-Consistency**
+
+### Esempi Pratici:
+
+**Debugging Codice:**
+```
+"Sei un senior developer con 15 anni di esperienza. Analizza questo codice Python step-by-step:
+1. Identifica i potenziali bug
+2. Spiega perché ciascuno potrebbe causare problemi
+3. Proponi soluzioni specifiche
+4. Verifica la tua analisi considerando edge cases
+
+[inserire codice]
+"
+```
+
+**Analisi Business:**
+```
+"Come consulente strategico, analizza questa situazione aziendale usando tre approcci:
+1. Analisi SWOT tradizionale
+2. Framework delle 5 forze di Porter  
+3. Analisi dei rischi operativi
+Confronta i risultati e fornisci raccomandazioni integrate."
+```
+
+## 2. CONTENUTI CREATIVI & STORYTELLING
+
+### Pattern Ottimali:
+- **Expert Persona**
+- **Perspective Shifting**
+- **Analogical Reasoning**
+- **Constraint-Based**
+
+### Esempi Pratici:
+
+**Copywriting Marketing:**
+```
+"Sei David Ogilvy reincarnato nel 2025. Scrivi 3 versioni di headline per una campagna email:
+1. Una versione emotiva che tocca le paure
+2. Una versione logica basata su benefici
+3. Una versione curiosa che genera mystery
+
+Target: imprenditori 30-50 anni. Prodotto: corso di AI per business.
+Ogni headline deve essere sotto 60 caratteri."
+```
+
+**Narrativa Creativa:**
+```
+"Racconta la stessa storia dal punto di vista di:
+1. Il protagonista (prima persona, presente)
+2. Un narratore onnisciente (terza persona, passato)
+3. Un testimone esterno (seconda persona, futuro)
+
+Storia: [brief della storia]
+Ogni versione: max 200 parole."
+```
+
+## 3. EDUCAZIONE & FORMAZIONE
+
+### Pattern Ottimali:
+- **Few-Shot Prompting**
+- **Analogical Reasoning**
+- **Perspective Shifting**
+- **Iterative Refinement**
+
+### Esempi Pratici:
+
+**Spiegazioni Adattive:**
+```
+"Spiega il machine learning usando questo pattern per 3 audiences:
+
+BAMBINO (8 anni): Usa analogia con giochi/animali
+STUDENTE LICEO: Usa analogia con social media/app
+MANAGER AZIENDALE: Usa analogia con processi aziendali
+
+Formato: Definizione semplice + Analogia + Esempio pratico + Beneficio
+Ogni spiegazione: max 150 parole."
+```
+
+**Tutorial Step-by-Step:**
+```
+"Crea un tutorial per [skill] seguendo questo template:
+
+ESEMPIO COMPLETO:
+Obiettivo: Installare WordPress
+Difficoltà: ⭐⭐⭐
+Tempo: 15 min
+Step 1: [azione] → [risultato atteso] → [troubleshooting]
+[continuare pattern]
+
+Ora crea lo stesso per: [tuo obiettivo]"
+```
+
+## 4. RICERCA & ANALISI DATI
+
+### Pattern Ottimali:
+- **Research-Enhanced** (per Claude)
+- **Multi-Persona**
+- **Red Team**
+- **Self-Consistency**
+
+### Esempi Pratici:
+
+**Market Research:**
+```
+"Conduci ricerca di mercato su [settore] seguendo questo processo:
+1. CERCA dati aggiornati su dimensioni mercato, trend, competitors
+2. ANALIZZA da 3 prospettive: investitore VC, founder startup, consulente strategico
+3. IDENTIFICA 3 possibili bias nei dati raccolti
+4. PRESENTA findings con confidence score per ogni insight
+5. CITA tutte le fonti utilizzate"
+```
+
+**Fact-Checking:**
+```
+"Verifica questa affermazione: '[claim da verificare]'
+1. Cerca evidenze a supporto da fonti primarie
+2. Cerca evidenze contrarie da fonti autorevoli  
+3. Identifica potenziali bias nelle fonti
+4. Dai un verdict: Vero/Falso/Parzialmente Vero/Insufficienti Dati
+5. Spiega il tuo reasoning e limiti dell'analisi"
+```
+
+## 5. PRODUTTIVITÀ & AUTOMAZIONE
+
+### Pattern Ottimali:
+- **Template-Based**
+- **Constraint-Based**
+- **Artifact-Driven** (per Claude)
+- **Few-Shot Prompting**
+
+### Esempi Pratici:
+
+**Email Templates:**
+```
+"Crea template email per questi scenari usando il pattern SCRAP:
+S - Subject line accattivante
+C - Context (1 frase sul perché scrivi)
+R - Request specifica e chiara
+A - Action step successivo
+P - Professional closing
+
+ESEMPI:
+Scenario: Follow-up post meeting
+Subject: "Recap decisioni di oggi + next steps"
+Context: "Grazie per il meeting produttivo di stamattina"
+[continua pattern]
+
+Ora crea template per:
+1. Cold outreach B2B
+2. Richiesta feedback
+3. Proposta collaborazione"
+```
+
+**Workflow Automation:**
+```
+"Trasforma questo processo manuale in workflow automatizzabile:
+[descrivere processo]
+
+Output richiesto:
+1. Flowchart in formato Mermaid
+2. Lista decision points che richiedono input umano  
+3. Metriche per misurare efficacia
+4. Potential failure points + handling
+5. Implementation roadmap (3 fasi)"
+```
+
+## 6. COMUNICAZIONE STRATEGICA
+
+### Pattern Ottimali:
+- **Multi-Persona**
+- **Red Team**
+- **Expert Persona**
+- **Reflection Pattern**
+
+### Esempi Pratici:
+
+**Pitch Presentation:**
+```
+"Prepara pitch per [idea/prodotto] anticipando obiezioni:
+1. PRESENTA: Core value proposition (elevator pitch format)
+2. ANTICIPA: 5 obiezioni più probabili dal target audience
+3. PREPARA: Risposta + supporting evidence per ciascuna
+4. TESTA: Fai role play come investitore scettico
+5. RAFFINA: Versione finale basata su feedback simulato
+
+Target: [specificare audience]
+Durata: [tempo disponibile]"
+```
+
+**Crisis Communication:**
+```
+"Sviluppa strategia comunicazione crisis per scenario: [scenario]
+
+FRAMEWORK RICE:
+R - Recognize: Identifica stakeholder impattati
+I - Investigate: Key facts da stabilire PRIMA di comunicare  
+C - Communicate: Messaggi per ciascun stakeholder
+E - Evaluate: Metriche per monitorare efficacia
+
+Includi: Key messages, FAQ proattive, timeline comunicazione"
+```
+
+## 7. INNOVAZIONE & BRAINSTORMING
+
+### Pattern Ottimali:
+- **Tree of Thoughts**
+- **Perspective Shifting**
+- **Analogical Reasoning**
+- **Constraint-Based**
+
+### Esempi Pratici:
+
+**Ideazione Prodotto:**
+```
+"Genera idee innovative per [problema] usando SCAMPER technique:
+S - Substitute: Cosa possiamo sostituire?
+C - Combine: Cosa possiamo combinare?
+A - Adapt: Cosa possiamo adattare da altri settori?
+M - Modify: Cosa possiamo modificare/ingrandire?
+P - Put to other uses: Usi alternativi?
+E - Eliminate: Cosa possiamo rimuovere?
+R - Reverse: Cosa possiamo rovesciare/riorganizzare?
+
+Per ogni lettera: 3 idee concrete + feasibility score (1-10)"
+```
+
+**Innovation Framework:**
+```
+"Applica Design Thinking a [challenge]:
+1. EMPATHIZE: Chi sono gli user? Pain points? (research se necessario)
+2. DEFINE: Problem statement in format 'How might we...'
+3. IDEATE: 10 soluzioni wild (no limiti), 5 soluzioni feasible
+4. PROTOTYPE: Descrivi MVP per top 3 idee
+5. TEST: Plan per validare ipotesi chiave
+
+Usa constraint: budget <$10K, timeline 3 mesi"
+```
+
+## COMBINAZIONI AVANZATE PER CASI COMPLESSI
+
+### Business Strategy (Multi-Pattern):
+```
+"CONTESTO: [situazione aziendale]
+RUOLO: Sei McKinsey senior partner
+
+PROCESSO:
+1. RESEARCH fase: Cerca dati di mercato aggiornati
+2. FRAMEWORK fase: Applica Blue Ocean Strategy
+3. STAKEHOLDER fase: Analizza da POV di CEO, CFO, CMO
+4. STRESS TEST fase: Red team la strategia (identifica rischi)
+5. EXECUTION fase: Roadmap 90-day con quick wins
+6. ARTIFACT fase: Crea presentation deck salvabile
+
+GUARDRAILS: Soluzioni feasible, budget-conscious, data-driven"
+```
+
+## METRICHE DI SUCCESSO PER CIASCUN CASO D'USO
+
+| Caso d'Uso | Metriche Qualità | Pattern Raccomandati |
+|-------------|------------------|---------------------|
+| Problem Solving | Accuratezza, Completezza reasoning | CoT + Self-Consistency |
+| Creatività | Originalità, Varietà, Engagement | Persona + Constraints |
+| Educazione | Chiarezza, Adattabilità, Retention | Few-Shot + Analogies |
+| Ricerca | Accuratezza fonti, Bias detection | Research + Red Team |
+| Produttività | Usabilità, Replicabilità | Template + Artifacts |
+| Comunicazione | Persuasione, Gestione obiezioni | Multi-Persona + Reflection |
+| Innovazione | Feasibility vs Creativity balance | Tree of Thoughts + SCAMPER |
+
+## QUICK REFERENCE: PATTERN PER SITUAZIONE
+
+**Urgente + Semplice** → Template-Based + Constraints  
+**Complesso + Tempo** → CRAFT + CoT + Multi-Persona  
+**Creativo + Brand** → Expert Persona + Perspective Shifting  
+**Tecnico + Accuratezza** → Research + Self-Consistency + Red Team  
+**Formativo + Scalabile** → Few-Shot + Analogies + Artifacts
